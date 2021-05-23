@@ -11,6 +11,7 @@
     - Yes, as this particular feature of the messaging application is easy to test as one individual part, and changing other app features shouldn't affect other unit tests.
 
 4. What do you expect to happen if we run our puppeteer tests with the field “headless” set to true?
+    - If "headless" is set to true, then the tests will be run without a browser UI.
 
 5. What would your beforeAll callback look like if you wanted to start from the settings page before every test case?
-
+    - 
